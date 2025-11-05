@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Black Cat">
+  <rect width="256" height="256" fill="none"/>
+  <!-- Simple geometric black cat icon in monochrome -->
+  <!-- Tail -->
+  <path d="M210 160c18 0 26 12 26 28 0 24-20 40-44 40-10 0-18-2-26-6" stroke="#000" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Body -->
+  <ellipse cx="128" cy="164" rx="58" ry="52" fill="#000"/>
+  <!-- Head -->
+  <circle cx="128" cy="88" r="40" fill="#000"/>
+  <!-- Ears -->
+  <path d="M98 70 L86 40 L118 58 Z" fill="#000"/>
+  <path d="M158 70 L170 40 L138 58 Z" fill="#000"/>
+  <!-- Eyes (white dots) -->
+  <circle cx="116" cy="88" r="5" fill="#fff"/>
+  <circle cx="140" cy="88" r="5" fill="#fff"/>
+  <!-- Whiskers -->
+  <path d="M84 96 H110" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 84 H110" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M146 96 H172" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M146 84 H172" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Меню — Kavárna & bar U mlsné kočky</title>
+    <meta name="description" content="Меню Kavárna & bar U mlsné kočky — любимые классики и сезонные находки" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="logo" href="./index.html#hero" aria-label="Kavárna & bar U mlsné kočky">
+      <img src="./assets/black-cat.svg" alt="Логотип — черный кот" />
+    </a>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a href="./menu.html" class="nav__link">Меню</a>
+        <a href="./gallery.html" class="nav__link">Галерея</a>
+        <a href="./about.html" class="nav__link">О нас</a>
+        <a href="./contact.html" class="nav__link nav__cta">Контакты</a>
+      </nav>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title reveal">Меню</h1>
+        <div class="rule reveal" style="--delay:.03s"></div>
+        <p class="page-hero__subtitle reveal" style="--delay:.06s">Здесь то, что мы сами любим пить. От прямого эспрессо до мягких молочных напитков — без лишних слов.</p>
+        <div class="btn-group reveal" style="--delay:.09s; margin-top:12px;">
+          <a href="./index.html#hero" class="btn btn--soft">На главную</a>
+          <a href="./gallery.html" class="btn btn--ghost">Галерея</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="panel reveal">
+          <p style="color: var(--muted); margin:0;">Цены могут слегка меняться — зерно и рецепты живут по сезонам. Подскажем на баре.</p>
+        </div>
+        <div class="menu-grid" style="margin-top: 12px;">
+          <article class="card reveal"><h3 class="card__title">Эспрессо</h3><p class="card__text">Плотный, концентрированный.</p><span class="card__price">180₽</span></article>
+          <article class="card reveal" style="--delay:.04s"><h3 class="card__title">Американо</h3><p class="card__text">Длинный черный.</p><span class="card__price">190₽</span></article>
+          <article class="card reveal" style="--delay:.08s"><h3 class="card__title">Капучино</h3><p class="card__text">Классика с молоком.</p><span class="card__price">230₽</span></article>
+          <article class="card reveal" style="--delay:.12s"><h3 class="card__title">Латте</h3><p class="card__text">Мягкий, сливочный.</p><span class="card__price">240₽</span></article>
+          <article class="card reveal" style="--delay:.16s"><h3 class="card__title">Флэт уайт</h3><p class="card__text">Больше кофе, меньше пены.</p><span class="card__price">260₽</span></article>
+          <article class="card reveal" style="--delay:.20s"><h3 class="card__title">Раф</h3><p class="card__text">Десертный, ванильный.</p><span class="card__price">290₽</span></article>
+          <article class="card reveal" style="--delay:.24s"><h3 class="card__title">Матча-латте</h3><p class="card__text">На альтернативном молоке.</p><span class="card__price">310₽</span></article>
+          <article class="card reveal" style="--delay:.28s"><h3 class="card__title">Фильтр</h3><p class="card__text">Чистый профиль зерна.</p><span class="card__price">200₽</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <h2 class="section__title reveal">Витрина</h2>
+        <div class="photo-grid" style="margin-top: 10px;">
+          <div class="photo reveal"><span>Фото</span></div>
+          <div class="photo reveal" style="--delay:.05s"><span>Фото</span></div>
+          <div class="photo reveal" style="--delay:.10s"><span>Фото</span></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Kavárna & bar U mlsné kočky</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
